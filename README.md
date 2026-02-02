@@ -1,6 +1,6 @@
 Environmental Efficiency & Industry Benchmarking (PostgreSQL)
 
-Overview
+Overview  
 This project was created to analyze the environmental and business efficency of facilities and corporations using some form of toxin or waste in their processes. Data obtained from the Environmental Protection Agency (EPA) Toxic Release Inventory (TRI) to evaluate how industrial facilities and parent companies compare relative to their industry peers and their impact on the U.S landscape. Using PostgreSQL, I built a normalized relational database and a set of analytical views that benchmark air emissions, waste recycling, and energy recovery across industries, toxins & chemicals, facilities, and parent companies.
 
 Dataset
@@ -12,7 +12,7 @@ Not simultanously specifc and broad (no dioxins 1 - 9, no surface injection data
 
 Database Design
 
-Core Tables
+Core Tables  
 facility – facility-level identifiers, NAICS industry classifications
 chemical - the specific chemicals being reported, and their characteristics in terms of toxicity
 emissions – reported environmental quantities such air emissions, proper waste management, and energy recovery
