@@ -72,4 +72,4 @@ Extending analysis to multiple TRI years for trend analysis
 Integrating verified financial datasets for more precise revenue metrics  
 Adding geographic normalization (state or regional comparisons)  
 
-See [Design Notes](docs/design_notes.md) for project liftime development
+See [Design Notes](docs/design_notes.md) for project lifetime development
