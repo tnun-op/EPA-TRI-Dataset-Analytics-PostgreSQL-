@@ -3,12 +3,12 @@ Environmental Efficiency & Industry Benchmarking (PostgreSQL)
 Overview  
 This project was created to analyze the environmental and business efficency of facilities and corporations using some form of toxin or waste in their processes. Data obtained from the Environmental Protection Agency (EPA) Toxic Release Inventory (TRI) to evaluate how industrial facilities and parent companies compare relative to their industry peers and their impact on the U.S landscape. Using PostgreSQL, I built a normalized relational database and a set of analytical views that benchmark air emissions, waste recycling, and energy recovery across industries, toxins & chemicals, facilities, and parent companies.
 
-Dataset
-Source: EPA Toxic Release Inventory (TRI)
-Year: 2024
-Scope: U.S. industrial facilities reporting air emissions, waste recycling, treatment, and energy recovery
-Limitations: Single-year snapshot
-Not simultanously specifc and broad (no dioxins 1 - 9, no surface injection data, etc)
+Dataset  
+Source: EPA Toxic Release Inventory (TRI)  
+Year: 2024  
+Scope: U.S. industrial facilities reporting air emissions, waste recycling, treatment, and energy recovery  
+Limitations: Single-year snapshot  
+Not simultanously specifc and broad (no dioxins 1 - 9, no surface injection data, etc)  
 
 Database Design
 
@@ -23,15 +23,15 @@ industry_benchmarks: industry-level averages across differing metrics and tables
 certifying_official: unique identifier of officials provided by the EPA as well as public information  
 
 Industry Classifications  
-Facilities are grouped into the following sectors:
-Organic Chemical Manufacturing
-Agriculture/Livestock
-Food & Beverage Manufacturing
-Sewage Treatment Facilities
-Solid Waste/Landfills
-NAICS codes were mapped to industry names to enable interpretable benchmarking.
+Facilities are grouped into the following sectors:  
+Organic Chemical Manufacturing  
+Agriculture/Livestock  
+Food & Beverage Manufacturing  
+Sewage Treatment Facilities  
+Solid Waste/Landfills  
+NAICS codes were mapped to industry names to enable interpretable benchmarking.  
 
-Key Views & Metrics
+Key Views & Metrics  
 
 facility_vs_industry  
 Compares individual facilities to their industry averages  
@@ -69,7 +69,6 @@ Data normalization and benchmarking
 
 Limitations & Future Work  
 Extending analysis to multiple TRI years for trend analysis  
-Integrating verified financial datasets for more precise revenue metrics  
-Adding geographic normalization (state or regional comparisons)  
+Integrating verified financial datasets for more precise revenue metrics   
 
 See [Design Notes](docs/design_notes.md) for project lifetime development
